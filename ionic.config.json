@@ -1,0 +1,7 @@
+{
+  "name": "sudokugame",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
