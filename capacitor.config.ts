@@ -10,9 +10,9 @@ const config: CapacitorConfig = {
       launchAutoHide: true,    // Disable automatic hiding of the splash screen
       backgroundColor: '#ffffff', // Splash screen background color
       androidScaleType: 'CENTER_CROP', // Splash screen scaling on Android
-      showSpinner: true, // Show spinner while the splash screen is visible
-      spinnerStyle: 'large', // Customize the spinner style
-      spinnerColor: '#000000', // Customize the spinner color
+      // showSpinner: true, // Show spinner while the splash screen is visible
+      // spinnerStyle: 'large', // Customize the spinner style
+      // spinnerColor: '#000000', // Customize the spinner color
       
     },
   },
