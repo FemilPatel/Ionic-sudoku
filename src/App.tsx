@@ -50,9 +50,21 @@ import { Game } from "./Game";
 import "./App.css";
 import { useEffect } from "react";
 import { StatusBar, Style } from "@capacitor/status-bar";
+import { SplashScreen } from "@capacitor/splash-screen";
 setupIonicReact();
 
 const App: React.FC = () => {
+  useEffect(() => {
+    // Simulate an async operation (e.g., API call) and hide the splash screen afterward
+    const hideSplashScreen = async () => {
+      // You can add any other initialization logic here
+      await new Promise((resolve) => setTimeout(resolve, 2000)); // Simulating a 3s delay
+      await SplashScreen.hide(); // Hide the splash screen after initialization
+    };
+
+    hideSplashScreen();
+  }, []);
+
   useEffect(() => {
     // Change the background color and content color of the status bar
     const setStatusBar = async () => {

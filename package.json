@@ -11,6 +11,7 @@
     "test.unit": "vitest",
     "lint": "eslint",
     "sync": "npx cap sync",
+    "assets": "npx @capacitor/assets generate --iconBackgroundColor '#1A8DFF' --iconBackgroundColorDark '#1A8DFF' --splashBackgroundColor '#1A8DFF' --splashBackgroundColorDark '#1A8DFF'",
     "android": "ionic cap run android -l --external",
     "ios": "ionic cap run ios -l --external"
   },
@@ -21,6 +22,7 @@
     "@capacitor/haptics": "6.0.1",
     "@capacitor/ios": "^6.1.2",
     "@capacitor/keyboard": "6.0.2",
+    "@capacitor/splash-screen": "^6.0.2",
     "@capacitor/status-bar": "^6.0.1",
     "@ionic/react": "^8.0.0",
     "@ionic/react-router": "^8.0.0",
@@ -34,6 +36,7 @@
     "react-router-dom": "^5.3.4"
   },
   "devDependencies": {
+    "@capacitor/assets": "^3.0.5",
     "@capacitor/cli": "^6.1.2",
     "@testing-library/dom": ">=7.21.4",
     "@testing-library/jest-dom": "^5.16.5",
