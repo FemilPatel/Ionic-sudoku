@@ -10,7 +10,7 @@ import { useSudokuContext } from "./context/SudokuContext";
 /**
  * Game is the main React component.
  */
-export const Game: React.FC<{}> = () => {
+const Game: React.FC = () => {
   /**
    * All the variables for holding state:
    * gameArray: Holds the current state of the game.
@@ -262,3 +262,4 @@ export const Game: React.FC<{}> = () => {
     </>
   );
 };
+export default Game;
